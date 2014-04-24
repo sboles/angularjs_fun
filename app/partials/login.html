@@ -1,0 +1,13 @@
+<div ng-controller="LoginCtrl">
+    <div style="color: red;">{{flare}}</div>
+    <form novalidate>
+        <fieldset>
+            <legend>Login</legend>
+            <label>Username</label>
+            <input type="text" ng-model="user.username" /><br />
+            <label>Password</label>
+            <input type="password" ng-model="user.password" /><br />
+            <button ng-click="login(user.username, user.password)" class="btn">Login</button>
+        </fieldset>
+    </form>
+</div>

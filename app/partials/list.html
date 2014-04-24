@@ -1,0 +1,15 @@
+<div ng-controller="ListCtrl">
+    <div style="color: red;" ng-repeat="error in errors">
+        <div>{{error}}</div>
+    </div>
+    <table class="table">
+        <thead>
+            <th>Name</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in list">
+                <td>{{item.name}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,17 @@
+<div ng-controller="DashboardCtrl">
+    <div style="color: red;" ng-repeat="error in flare">
+        <div>{{error}}</div>
+    </div>
+    <table class="table">
+        <thead>
+            <th>Type Definition Name</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="typeDatum in typeData">
+                <td><a href="#/t/{{typeDatum.shortName}}/list">{{typeDatum.name}}</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

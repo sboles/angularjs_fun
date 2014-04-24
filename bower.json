@@ -8,7 +8,10 @@
   "dependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
+    "angular-cookies": "1.2.x",
     "angular-loader": "1.2.x",
-    "angular-mocks": "~1.2.15"
+    "angular-mocks": "~1.2.15",
+    "jquery": "1.11.0",
+    "underscore": "1.5.1"
   }
 }
